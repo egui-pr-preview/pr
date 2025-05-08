@@ -205,7 +205,7 @@ let wasm_bindgen;
         return className;
     }
     function __wbg_adapter_34(arg0, arg1, arg2) {
-        wasm.closure938_externref_shim(arg0, arg1, arg2);
+        wasm.closure939_externref_shim(arg0, arg1, arg2);
     }
 
     function takeFromExternrefTable0(idx) {
@@ -221,11 +221,11 @@ let wasm_bindgen;
     }
 
     function __wbg_adapter_42(arg0, arg1, arg2) {
-        wasm.closure1181_externref_shim(arg0, arg1, arg2);
+        wasm.closure1182_externref_shim(arg0, arg1, arg2);
     }
 
     function __wbg_adapter_648(arg0, arg1, arg2, arg3) {
-        wasm.closure1227_externref_shim(arg0, arg1, arg2, arg3);
+        wasm.closure1228_externref_shim(arg0, arg1, arg2, arg3);
     }
 
     const __wbindgen_enum_RequestMode = ["same-origin", "no-cors", "cors", "navigate"];
@@ -1694,19 +1694,19 @@ let wasm_bindgen;
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper3182 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 939, __wbg_adapter_34);
+            const ret = makeMutClosure(arg0, arg1, 940, __wbg_adapter_34);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper3184 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 939, __wbg_adapter_37);
+            const ret = makeMutClosure(arg0, arg1, 940, __wbg_adapter_37);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper3186 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 939, __wbg_adapter_34);
+            const ret = makeMutClosure(arg0, arg1, 940, __wbg_adapter_34);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper3826 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1182, __wbg_adapter_42);
+            const ret = makeMutClosure(arg0, arg1, 1183, __wbg_adapter_42);
             return ret;
         };
         imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
