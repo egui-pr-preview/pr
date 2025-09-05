@@ -214,7 +214,7 @@ let wasm_bindgen;
         return value;
     }
     function __wbg_adapter_37(arg0, arg1) {
-        const ret = wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h2891f5a93f36d192_multivalue_shim(arg0, arg1);
+        const ret = wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h899eb7745038b074_multivalue_shim(arg0, arg1);
         if (ret[1]) {
             throw takeFromExternrefTable0(ret[0]);
         }
