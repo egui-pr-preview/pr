@@ -205,7 +205,7 @@ let wasm_bindgen;
         return className;
     }
     function __wbg_adapter_34(arg0, arg1, arg2) {
-        wasm.closure1161_externref_shim(arg0, arg1, arg2);
+        wasm.closure1159_externref_shim(arg0, arg1, arg2);
     }
 
     function takeFromExternrefTable0(idx) {
@@ -221,11 +221,11 @@ let wasm_bindgen;
     }
 
     function __wbg_adapter_42(arg0, arg1, arg2) {
-        wasm.closure1414_externref_shim(arg0, arg1, arg2);
+        wasm.closure1412_externref_shim(arg0, arg1, arg2);
     }
 
     function __wbg_adapter_646(arg0, arg1, arg2, arg3) {
-        wasm.closure1454_externref_shim(arg0, arg1, arg2, arg3);
+        wasm.closure1452_externref_shim(arg0, arg1, arg2, arg3);
     }
 
     const __wbindgen_enum_RequestMode = ["same-origin", "no-cors", "cors", "navigate"];
@@ -1690,19 +1690,19 @@ let wasm_bindgen;
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper4036 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1162, __wbg_adapter_34);
+            const ret = makeMutClosure(arg0, arg1, 1160, __wbg_adapter_34);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper4038 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1162, __wbg_adapter_37);
+            const ret = makeMutClosure(arg0, arg1, 1160, __wbg_adapter_37);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper4040 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1162, __wbg_adapter_34);
+            const ret = makeMutClosure(arg0, arg1, 1160, __wbg_adapter_34);
             return ret;
         };
         imports.wbg.__wbindgen_closure_wrapper4690 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1415, __wbg_adapter_42);
+            const ret = makeMutClosure(arg0, arg1, 1413, __wbg_adapter_42);
             return ret;
         };
         imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
