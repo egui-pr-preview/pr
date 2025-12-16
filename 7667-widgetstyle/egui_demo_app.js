@@ -247,7 +247,7 @@ let wasm_bindgen;
         return className;
     }
     function __wbg_adapter_36(arg0, arg1, arg2) {
-        wasm.closure1211_externref_shim(arg0, arg1, arg2);
+        wasm.closure1217_externref_shim(arg0, arg1, arg2);
     }
 
     function takeFromExternrefTable0(idx) {
@@ -263,11 +263,11 @@ let wasm_bindgen;
     }
 
     function __wbg_adapter_44(arg0, arg1, arg2) {
-        wasm.closure2209_externref_shim(arg0, arg1, arg2);
+        wasm.closure2202_externref_shim(arg0, arg1, arg2);
     }
 
     function __wbg_adapter_1424(arg0, arg1, arg2, arg3) {
-        wasm.closure4109_externref_shim(arg0, arg1, arg2, arg3);
+        wasm.closure4102_externref_shim(arg0, arg1, arg2, arg3);
     }
 
     const __wbindgen_enum_GpuAddressMode = ["clamp-to-edge", "repeat", "mirror-repeat"];
@@ -3040,20 +3040,20 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4474 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1212, __wbg_adapter_36);
+        imports.wbg.__wbindgen_closure_wrapper4496 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1218, __wbg_adapter_36);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4476 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1212, __wbg_adapter_36);
+        imports.wbg.__wbindgen_closure_wrapper4498 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1218, __wbg_adapter_36);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4478 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1212, __wbg_adapter_41);
+        imports.wbg.__wbindgen_closure_wrapper4500 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1218, __wbg_adapter_41);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper6705 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2210, __wbg_adapter_44);
+        imports.wbg.__wbindgen_closure_wrapper6688 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2203, __wbg_adapter_44);
             return ret;
         };
         imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
