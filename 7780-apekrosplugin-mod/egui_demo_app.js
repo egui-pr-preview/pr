@@ -246,28 +246,29 @@ let wasm_bindgen;
         // TODO we could test for more things here, like `Set`s and `Map`s.
         return className;
     }
-    function __wbg_adapter_36(arg0, arg1, arg2) {
-        wasm.closure1231_externref_shim(arg0, arg1, arg2);
-    }
 
     function takeFromExternrefTable0(idx) {
         const value = wasm.__wbindgen_export_1.get(idx);
         wasm.__externref_table_dealloc(idx);
         return value;
     }
-    function __wbg_adapter_41(arg0, arg1) {
-        const ret = wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hc3dc294fac959558_multivalue_shim(arg0, arg1);
+    function __wbg_adapter_36(arg0, arg1) {
+        const ret = wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h5bbec6e54db8da61_multivalue_shim(arg0, arg1);
         if (ret[1]) {
             throw takeFromExternrefTable0(ret[0]);
         }
     }
 
-    function __wbg_adapter_44(arg0, arg1, arg2) {
-        wasm.closure2200_externref_shim(arg0, arg1, arg2);
+    function __wbg_adapter_39(arg0, arg1, arg2) {
+        wasm.closure1269_externref_shim(arg0, arg1, arg2);
     }
 
-    function __wbg_adapter_1424(arg0, arg1, arg2, arg3) {
-        wasm.closure4100_externref_shim(arg0, arg1, arg2, arg3);
+    function __wbg_adapter_44(arg0, arg1, arg2) {
+        wasm.closure2237_externref_shim(arg0, arg1, arg2);
+    }
+
+    function __wbg_adapter_1408(arg0, arg1, arg2, arg3) {
+        wasm.closure4162_externref_shim(arg0, arg1, arg2, arg3);
     }
 
     const __wbindgen_enum_GpuAddressMode = ["clamp-to-edge", "repeat", "mirror-repeat"];
@@ -344,36 +345,6 @@ let wasm_bindgen;
             wasm.__wbg_webhandle_free(ptr, 0);
         }
         /**
-         * Installs a panic hook, then returns.
-         */
-        constructor() {
-            const ret = wasm.webhandle_new();
-            this.__wbg_ptr = ret >>> 0;
-            WebHandleFinalization.register(this, this.__wbg_ptr, this);
-            return this;
-        }
-        /**
-         * Call this once from JavaScript to start your app.
-         *
-         * # Errors
-         * Returns an error if the app could not start.
-         * @param {HTMLCanvasElement} canvas
-         * @returns {Promise<void>}
-         */
-        start(canvas) {
-            const ret = wasm.webhandle_start(this.__wbg_ptr, canvas);
-            return ret;
-        }
-        destroy() {
-            wasm.webhandle_destroy(this.__wbg_ptr);
-        }
-        /**
-         * Example on how to call into your app from JavaScript.
-         */
-        example() {
-            wasm.webhandle_example(this.__wbg_ptr);
-        }
-        /**
          * The JavaScript can check whether or not your app has crashed:
          * @returns {boolean}
          */
@@ -404,6 +375,36 @@ let wasm_bindgen;
                 wasm.__wbindgen_free(ret[0], ret[1] * 1, 1);
             }
             return v1;
+        }
+        /**
+         * Installs a panic hook, then returns.
+         */
+        constructor() {
+            const ret = wasm.webhandle_new();
+            this.__wbg_ptr = ret >>> 0;
+            WebHandleFinalization.register(this, this.__wbg_ptr, this);
+            return this;
+        }
+        /**
+         * Call this once from JavaScript to start your app.
+         *
+         * # Errors
+         * Returns an error if the app could not start.
+         * @param {HTMLCanvasElement} canvas
+         * @returns {Promise<void>}
+         */
+        start(canvas) {
+            const ret = wasm.webhandle_start(this.__wbg_ptr, canvas);
+            return ret;
+        }
+        destroy() {
+            wasm.webhandle_destroy(this.__wbg_ptr);
+        }
+        /**
+         * Example on how to call into your app from JavaScript.
+         */
+        example() {
+            wasm.webhandle_example(this.__wbg_ptr);
         }
     }
     __exports.WebHandle = WebHandle;
@@ -1793,7 +1794,7 @@ let wasm_bindgen;
                     const a = state0.a;
                     state0.a = 0;
                     try {
-                        return __wbg_adapter_1424(a, state0.b, arg0, arg1);
+                        return __wbg_adapter_1408(a, state0.b, arg0, arg1);
                     } finally {
                         state0.a = a;
                     }
@@ -3043,20 +3044,20 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4553 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1232, __wbg_adapter_36);
+        imports.wbg.__wbindgen_closure_wrapper4691 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1266, __wbg_adapter_36);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4555 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1232, __wbg_adapter_36);
+        imports.wbg.__wbindgen_closure_wrapper4693 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1266, __wbg_adapter_39);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4557 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 1232, __wbg_adapter_41);
+        imports.wbg.__wbindgen_closure_wrapper4695 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 1266, __wbg_adapter_39);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper6695 = function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2201, __wbg_adapter_44);
+        imports.wbg.__wbindgen_closure_wrapper6750 = function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2238, __wbg_adapter_44);
             return ret;
         };
         imports.wbg.__wbindgen_debug_string = function(arg0, arg1) {
