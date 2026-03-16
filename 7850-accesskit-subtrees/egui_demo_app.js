@@ -3043,19 +3043,19 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4486 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper4522 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 1246, __wbg_adapter_36);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4488 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper4524 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 1246, __wbg_adapter_36);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper4490 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper4526 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 1246, __wbg_adapter_41);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper6747 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper6783 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 2250, __wbg_adapter_44);
             return ret;
         };
