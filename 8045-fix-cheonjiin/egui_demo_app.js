@@ -1264,6 +1264,10 @@ let wasm_bindgen = (function(exports) {
                 const ret = Symbol.iterator;
                 return ret;
             },
+            __wbg_keyCode_155291a11654466e: function(arg0) {
+                const ret = arg0.keyCode;
+                return ret;
+            },
             __wbg_key_d41e8e825e6bb0e9: function(arg0, arg1) {
                 const ret = arg1.key;
                 const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
