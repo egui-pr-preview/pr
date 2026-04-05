@@ -569,13 +569,6 @@ let wasm_bindgen = (function(exports) {
                 const ret = arg0.dataTransfer;
                 return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
             },
-            __wbg_data_acd149571f3b741a: function(arg0, arg1) {
-                const ret = arg1.data;
-                var ptr1 = isLikeNone(ret) ? 0 : passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
-                var len1 = WASM_VECTOR_LEN;
-                getDataViewMemory0().setInt32(arg0 + 4 * 1, len1, true);
-                getDataViewMemory0().setInt32(arg0 + 4 * 0, ptr1, true);
-            },
             __wbg_debug_d5a0bbed6ee536ac: function(arg0, arg1) {
                 console.debug(getStringFromWasm0(arg0, arg1));
             },
