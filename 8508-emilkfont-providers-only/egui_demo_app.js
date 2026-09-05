@@ -2956,13 +2956,13 @@ let wasm_bindgen = (function(exports) {
                 return ret;
             },
             __wbindgen_cast_0000000000000002: function(arg0, arg1) {
-                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>")], shim_idx: 1777, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e);
+                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>")], shim_idx: 1776, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7);
                 return ret;
             },
             __wbindgen_cast_0000000000000003: function(arg0, arg1) {
-                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Event")], shim_idx: 1777, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e_2);
+                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Event")], shim_idx: 1776, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7_2);
                 return ret;
             },
             __wbindgen_cast_0000000000000004: function(arg0, arg1) {
@@ -2981,8 +2981,8 @@ let wasm_bindgen = (function(exports) {
                 return ret;
             },
             __wbindgen_cast_0000000000000007: function(arg0, arg1) {
-                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [], shim_idx: 1775, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
-                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h708415c1f461ca03);
+                // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [], shim_idx: 1779, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+                const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__h916b3c4a3e03f178);
                 return ret;
             },
             __wbindgen_cast_0000000000000008: function(arg0) {
@@ -3046,19 +3046,19 @@ let wasm_bindgen = (function(exports) {
         };
     }
 
-    function wasm_bindgen__convert__closures_____invoke__h708415c1f461ca03(arg0, arg1) {
-        const ret = wasm.wasm_bindgen__convert__closures_____invoke__h708415c1f461ca03(arg0, arg1);
+    function wasm_bindgen__convert__closures_____invoke__h916b3c4a3e03f178(arg0, arg1) {
+        const ret = wasm.wasm_bindgen__convert__closures_____invoke__h916b3c4a3e03f178(arg0, arg1);
         if (ret[1]) {
             throw takeFromExternrefTable0(ret[0]);
         }
     }
 
-    function wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e(arg0, arg1, arg2) {
-        wasm.wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e(arg0, arg1, arg2);
+    function wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7(arg0, arg1, arg2) {
+        wasm.wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7(arg0, arg1, arg2);
     }
 
-    function wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e_2(arg0, arg1, arg2) {
-        wasm.wasm_bindgen__convert__closures_____invoke__h8cf5f3c57850cf2e_2(arg0, arg1, arg2);
+    function wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7_2(arg0, arg1, arg2) {
+        wasm.wasm_bindgen__convert__closures_____invoke__h5e53d80fd7b607d7_2(arg0, arg1, arg2);
     }
 
     function wasm_bindgen__convert__closures_____invoke__h18aa733a3ad721b9(arg0, arg1, arg2) {
